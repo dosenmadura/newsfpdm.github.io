@@ -1,1 +1,80 @@
-tes
+<!DOCTYPE html>
+<html lang="id">
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>{{ page.title }} | News FPDM</title>
+
+  <meta name="description"
+        content="Portal Berita Forum Profesi Dosen Madura">
+
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+  <div class="container header-inner">
+
+    <div class="brand">
+
+      <a href="{{ '/' | relative_url }}">
+        NEWS FPDM
+      </a>
+
+      <span>
+        Forum Profesi Dosen Madura
+      </span>
+
+    </div>
+
+    <nav class="navigation">
+
+      <a href="{{ '/' | relative_url }}">Beranda</a>
+      <a href="/berita/">Berita</a>
+      <a href="/kegiatan/">Kegiatan</a>
+      <a href="/opini/">Opini</a>
+      <a href="/pengumuman/">Pengumuman</a>
+
+    </nav>
+
+  </div>
+
+</header>
+
+
+<main>
+
+  <div class="container">
+
+    {{ content }}
+
+  </div>
+
+</main>
+
+
+<footer class="site-footer">
+
+  <div class="container">
+
+    <strong>News FPDM</strong>
+
+    <p>
+      Portal Berita Forum Profesi Dosen Madura
+    </p>
+
+    <p>
+      © {{ 'now' | date: "%Y" }} Forum Profesi Dosen Madura
+    </p>
+
+  </div>
+
+</footer>
+
+</body>
+</html>
