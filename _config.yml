@@ -1,0 +1,9 @@
+title: News FPDM
+description: Portal Berita Forum Profesi Dosen Madura
+
+url: "https://news.fpdm.org"
+
+theme: minima
+
+plugins:
+  - jekyll-feed
