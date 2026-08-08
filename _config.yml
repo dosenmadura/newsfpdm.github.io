@@ -3,7 +3,7 @@ description: Portal Berita Forum Profesi Dosen Madura
 
 url: "https://news.fpdm.org"
 
-theme: minima
+markdown: kramdown
 
 plugins:
   - jekyll-feed
